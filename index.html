@@ -3,14 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>HMIS Dashboard</title>
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <h1>HMIS Dashboard</h1>
+
+  <aside class="sidebar">
+    <div class="logo">
+      MIDAS
+    </div>
+
+    <nav class="navigation">
+      <a href="#" class="nav-item active">Dashboard</a>
+      <a href="#" class="nav-item">Registration</a>
+      <a href="#" class="nav-item">Billing</a>
+      <a href="#" class="nav-item">Laboratory</a>
+      <a href="#" class="nav-item">Pharmacy</a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+
+    <header class="header">
+      <div>
+        <p class="eyebrow">GOOD MORNING</p>
+        <h1>Hospital Overview</h1>
+      </div>
+
+      <button class="profile-button">
+        Nishan
+      </button>
+    </header>
+
+    <section class="stats">
+
+      <div class="stat-card">
+        <p>Total Patients</p>
+        <h2>1,284</h2>
+      </div>
+
+      <div class="stat-card">
+        <p>Today's Appointments</p>
+        <h2>86</h2>
+      </div>
+
+      <div class="stat-card">
+        <p>Pending Bills</p>
+        <h2>42</h2>
+      </div>
+
+    </section>
+
+  </main>
 
   <script src="script.js"></script>
+
 </body>
 </html>
