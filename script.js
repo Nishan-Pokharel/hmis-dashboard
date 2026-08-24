@@ -1,0 +1,1 @@
+console.log("HMIS Dashboard is running");
